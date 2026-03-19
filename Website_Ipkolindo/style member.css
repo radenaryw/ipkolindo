@@ -1,0 +1,124 @@
+/* ================= MEMBER SECTION ================= */
+
+.member-section{
+padding:80px 10%;
+background:linear-gradient(135deg,#dfe6ee,#7c9ac2);
+text-align:center;
+}
+
+/* ================= JUDUL ================= */
+
+.member-section h2{
+font-size:40px;
+margin-bottom:10px;
+font-weight:700;
+color:#2c3e50;
+}
+
+/* ================= SEARCH ================= */
+
+#searchInput{
+padding:14px 20px;
+width:350px;
+border-radius:30px;
+border:none;
+font-size:16px;
+margin:20px 0 40px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+outline:none;
+transition:0.3s;
+}
+
+#searchInput:focus{
+transform:scale(1.05);
+}
+
+/* ================= TABLE BOX ================= */
+
+.table-box{
+width:95%;
+margin:auto;
+background:white;
+border-radius:15px;
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+overflow:hidden;
+}
+
+/* SCROLL UNTUK DATA BANYAK */
+.table-wrapper{
+max-height:400px;
+overflow-y:auto;
+}
+
+/* ================= TABLE ================= */
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+/* ================= HEADER ================= */
+
+thead{
+background:linear-gradient(135deg,#3f5f8f,#5f7fb0);
+color:white;
+font-size:18px;
+position:sticky;
+top:0;
+}
+
+th{
+padding:15px;
+text-align:center;
+}
+
+/* ================= BODY ================= */
+
+tbody tr{
+transition:0.3s;
+}
+
+tbody tr:nth-child(even){
+background:#f5f7fb;
+}
+
+tbody tr:hover{
+background:#dbe7ff;
+transform:scale(1.01);
+}
+
+td{
+padding:15px;
+font-size:16px;
+text-align:center;
+}
+
+/* ================= BUTTON ================= */
+
+.detail-btn{
+background:linear-gradient(135deg,#ffd54f,#ffca28);
+color:#333;
+border:none;
+padding:8px 20px;
+border-radius:20px;
+font-size:14px;
+cursor:pointer;
+font-weight:600;
+transition:0.3s;
+}
+
+.detail-btn:hover{
+transform:scale(1.1);
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ================= SCROLL STYLE ================= */
+
+.table-wrapper::-webkit-scrollbar{
+width:8px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb{
+background:#3f5f8f;
+border-radius:10px;
+}
